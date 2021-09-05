@@ -1,0 +1,54 @@
+.sidenav {
+  width: 300px;
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: 1px solid black;
+
+  background-color: #f1f1f1;
+
+  .header {
+    background-color: #4caf50;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+
+    font-family: "Roboto", sans-serif, Arial;
+  }
+
+  .messages {
+    display: flex;
+    flex-direction: column;
+  }
+  footer {
+    bottom: 0;
+  }
+  .message-set {
+    margin-top: auto;
+    display: flex;
+    padding: 10px;
+    input {
+      padding: 10px;
+    }
+  }
+}
+p {
+  color: pink;
+}
+
+.chatbox {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  position: fixed;
+  bottom: 0;
+}
+
+.messagesSet{
+  display: flex;
+  flex-direction: column;
+}
