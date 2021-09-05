@@ -69,6 +69,7 @@ io.on("connection", (socket) => {
   console.log(`Sockets ${socket.id} has connected`);
 });
 
-http.listen(4444, () => {
+port = process.env.PORT || 4444;
+http.listen( port, () => {
   console.log(`Listing on port 4444`);
 });
