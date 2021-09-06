@@ -9,7 +9,8 @@ import { FormsModule } from '@angular/forms';
 import { SocketIoModule, SocketIoConfig } from 'ngx-socket-io';
 import { ChatboxComponent } from './components/chatbox/chatbox.component';
 
-const config: SocketIoConfig = { url: 'https://shared-document-server.herokuapp.com', options: {} };
+// const config: SocketIoConfig = { url: 'https://shared-document-server.herokuapp.com', options: {} };
+const config: SocketIoConfig = { url: 'http://localhost:4444/', options: {} };
 
 @NgModule({
   declarations: [AppComponent, DocumentListComponent, DocumentComponent, ChatboxComponent],

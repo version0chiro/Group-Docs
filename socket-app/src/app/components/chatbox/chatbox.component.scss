@@ -23,6 +23,7 @@
   .messages {
     display: flex;
     flex-direction: column;
+    height: calc(100% - 50px);
   }
   footer {
     bottom: 0;
@@ -37,7 +38,8 @@
   }
 }
 p {
-  color: pink;
+  color: #1A090D;
+  align-items: center;
 }
 
 .chatbox {
@@ -51,4 +53,7 @@ p {
 .messagesSet{
   display: flex;
   flex-direction: column;
+  height: fit-content;
+  padding-left: 10px;
+  background-color: #A8BA9A;
 }
