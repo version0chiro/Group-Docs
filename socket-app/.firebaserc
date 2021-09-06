@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "documentsharingapp-db305": {
+      "hosting": {
+        "socket-app": [
+          "documentsharingapp-db305"
+        ]
+      }
+    }
+  }
+}
